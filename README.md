@@ -1,1 +1,1 @@
-# Jukaisen_Wiki
+# Jujutsu_Kisen
