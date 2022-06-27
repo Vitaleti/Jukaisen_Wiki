@@ -126,8 +126,19 @@ h1, h2, h3, h4, h5, h6 {
 	justify-content: space-between;
 }
 
-.character__block p {
-	text-align: center;
+.character__block img {
+	display:  block;
+}
+
+.character__block a {
 	font-size: 14px;
 	color: #CC6633;
+	transition: 0.2s;
+
+}
+
+.character__block a:hover {
+	color: #333;
+	cursor: pointer;
+	transition: 0.2s;
 }
