@@ -64,13 +64,31 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 100px;
 }
 
+.intro__flex {
+	display: flex;
+	justify-content: space-between;
+}
+
 .intro {
+	width: 840px;
 	background-color: #a0a0a0;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-radius: 10px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+.intro__title {
+	font-size: 35px;
+	color: #000;
+	transition: 0.2s;
+}
+
+.intro__title:hover {
+	color: #B22222;
+	transition: 0.2s;
 }
 
 .intro__flex {
@@ -81,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro__info {
 	border: 2px solid #000;
+	border-radius: 10px;
 	margin-top: 20px;
 	padding: 10px;
 }
@@ -139,6 +158,81 @@ h1, h2, h3, h4, h5, h6 {
 
 .character__block a:hover {
 	color: #333;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+
+.intro__sidebar-nav {
+	width: 350px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 10px;
+	background-color: #a0a0a0;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+.intro__sidebar-nav-info {
+	border: 2px solid #000;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.intro__sidebar-nav-info span {
+	font-size: 18px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: 0.2s;
+}
+
+.intro__sidebar-nav-info span a:hover {
+	cursor: pointer;
+	color: #B22222;
+	transition: 0.2s;
+}
+
+.intro__sidebar-discord {
+	width: 350px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 10px;
+	background-color: #a0a0a0;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+.intro__sidebar-discord-info {
+	border: 2px solid #000;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.intro__sidebar-discord-info span {
+	font-size: 18px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.6;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.intro__sidebar-discord-info img {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+	transition: 0.2s;
+}
+
+.intro__sidebar-discord-info img:hover {
+	opacity: 80%;
 	cursor: pointer;
 	transition: 0.2s;
 }
